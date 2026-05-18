@@ -1,0 +1,70 @@
+/* 全体リセット */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* ヘッダー */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* コンテンツを中央に集めるコンテナ(共通) */
+.center-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ボタン類の基本スタイル(共通) */
+button {
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 4px;
+}
+button:hover {
+    background-color: #eee;
+}
+
+/* カードやボックス風にしたい部分(共通) */
+.card-box {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* フッター(共通) */
+footer {
+    text-align: center;
+    padding: 16px;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 40px;
+}
+
+/* 必要に応じてページ固有のスタイルなども追記 */
+.encouragement {
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+}
